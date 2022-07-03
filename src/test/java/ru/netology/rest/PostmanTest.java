@@ -21,7 +21,7 @@ void checkPostman() {
     // Проверки
             .then()
             .statusCode(200)
-            .body("data", equalTo("same data"))
+            .body("data", equalTo("some data"))
     ;
 }
 }
